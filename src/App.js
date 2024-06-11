@@ -3,9 +3,11 @@ import {React,useState} from 'react'
 import LQVListTask from './components/LQVListTask';
 import LQVTaskAddOrEdit from './components/LQVTaskAddOrEdit';
 
+
+
 function App() {
     //mock data
-    const tdd_listTasks = [
+    const LQV_ListTasks = [
       { LQV_taskId:2210900083,LQV_taskName:"Lê Quốc Vương", LQV_level:"Small" },
       { LQV_taskId:2, LQV_taskName:"Học lập trình reactjs",LQV_level:"Medium"},
       { LQV_taskId:3, LQV_taskName:"Lập trình với Frontend - Reactjs",LQV_level:"High"},
